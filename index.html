@@ -28,32 +28,36 @@
   <body>
     <header class="site_header">
       <!-- This script replays the gif on page refresh -->
-      <div id="anim">
-        <img
-          id="image"
-          src="images/logo_glitch.gif"
-        />
-      </div>
-      <script type="text/javascript">
-        $(document).ready(function () {
-          $("#image").attr(
-            "src",
-            "images/logo_glitch.gif?" +
-              Math.random()
+      <div class="site_branding">
+        <div id="anim">
+          <img
+            id="image"
+            src="images/logo_glitch.gif"
+          />
+        </div>
+        <script type="text/javascript">
+          $(document).ready(
+            function () {
+              $("#image").attr(
+                "src",
+                "images/logo_glitch.gif?" +
+                  Math.random()
+              );
+            }
           );
-        });
-      </script>
-      <p class="site_title">
-        cozyfiles
-      </p>
-      <p class="site_desc">
-        cozyfiles music group. |
-        @cozyfiles
-      </p>
+        </script>
+        <p class="site_title">
+          cozyfiles
+        </p>
+        <p class="site_desc">
+          cozyfiles music group. |
+          @cozyfiles
+        </p>
+      </div>
       <!-- This is my navigation bar. There are no bulletpoints because of the "bp" class selector. -->
-      <nav>
-        <div class="nav_menu">
-          <ul class="bp">
+      <nav class="site_nav">
+        <div>
+          <ul class="bp site_nav_bar">
             <li id="nav_home">
               <a href="pages/home.html"
                 >home.</a

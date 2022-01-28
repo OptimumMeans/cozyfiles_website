@@ -6,13 +6,31 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/* Controls site header container */
 .site_header {
   height: 150px;
-  width: 1000px;
-  display: block;
+  width: 950px;
   padding-top: 28px;
   padding-bottom: 28px;
+}
+
+/* Controls site branding container */
+.site_branding {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.site_nav {
+  height: 120px;
+  width: 600px;
+}
+
+.site_nav_bar {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Controls logo animating GIF. Pretty sick. */
@@ -20,12 +38,12 @@
 #anim {
   height: 80px;
   width: 80px;
-  padding-top: 30px;
-  padding-left: 40px;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 
 /* Displays logo GIF, site_title, and site_desc vertically. */
-#logo,
+#image,
 #anim,
 .site_title,
 .site_desc {
@@ -42,27 +60,18 @@
   font-size: 30px;
   padding-top: 30px;
   padding-left: 30px;
-  padding-bottom: 1px;
-  border: 1px;
-  margin: 1px;
+  margin: 0px;
 }
 
 .site_desc {
+  height: 20px;
+  width: 145px;
   font-family: "sk-modernist", monospace,
     sans-serif;
   font-size: 9.375px;
   padding-left: 32.5px;
-}
-
-.nav_menu {
-  display: flex;
-  flex-direction: row;
-}
-
-#nav_about {
-  height: 17px;
-  width: 36px;
-  text-align: right;
+  padding-bottom: 20px;
+  margin: 0px;
 }
 
 /* Removes bulletpoints from <ul> lists */
