@@ -22,17 +22,6 @@
   flex-direction: column;
 }
 
-.site_nav {
-  height: 120px;
-  width: 600px;
-}
-
-.site_nav_bar {
-  text-align: right;
-  display: flex;
-  flex-direction: row;
-}
-
 /* Controls logo animating GIF. Pretty sick. */
 #image,
 #anim {
@@ -40,15 +29,6 @@
   width: 80px;
   padding-top: 15px;
   padding-left: 20px;
-}
-
-/* Displays logo GIF, site_title, and site_desc vertically. */
-#image,
-#anim,
-.site_title,
-.site_desc {
-  display: flex;
-  flex-direction: column;
 }
 
 .site_title {
@@ -72,6 +52,17 @@
   padding-left: 32.5px;
   padding-bottom: 20px;
   margin: 0px;
+}
+
+.site_nav {
+  height: 120px;
+  width: 600px;
+}
+
+.site_nav_bar {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Removes bulletpoints from <ul> lists */
