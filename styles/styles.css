@@ -1,3 +1,4 @@
+/* Adds SK Modernist font, available here (https://seankanedesign.gumroad.com/l/sk-modernist) */
 @font-face {
   font-family: "sk-modernist";
   src: url("../assets/fonts/sk-modernist-regular-webfont.woff")
@@ -38,6 +39,9 @@
   font-family: "sk-modernist";
   font-size: 9.375px;
   padding-left: 32.5px;
+}
+
+.nav-menu {
 }
 
 .html {
