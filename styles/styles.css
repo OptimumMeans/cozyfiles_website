@@ -7,8 +7,16 @@
   font-style: normal;
 }
 
+.site_header {
+  height: 150px;
+  width: 1000px;
+  display: block;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
 /* Controls logo animating GIF. Pretty sick. */
-#logo,
+#image,
 #anim {
   height: 80px;
   width: 80px;
@@ -16,6 +24,7 @@
   padding-left: 40px;
 }
 
+}
 /* Displays logo GIF, site_title, and site_desc vertically. */
 #logo,
 #anim,
@@ -26,13 +35,13 @@
 }
 
 .site_title {
-  height: 25px;
-  width: 50px;
+  height: 50px;
+  width: 115px;
   font-weight: bold;
   font-family: "sk-modernist", monospace,
     sans-serif;
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 1px;
   border: 1px;
@@ -46,9 +55,14 @@
   padding-left: 32.5px;
 }
 
-nav,
-.nav-menu {
-  display: block;
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+}
+
+#nav_about {
+  height: 17px;
+  width: 36px;
   text-align: right;
 }
 

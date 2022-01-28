@@ -26,58 +26,65 @@
     ></script>
   </head>
   <body>
-    <!-- This script replays the gif on page refresh -->
-    <div id="anim">
-      <img
-        id="image"
-        src="images/logo_glitch.gif"
-      />
-    </div>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $("#image").attr(
-          "src",
-          "images/logo_glitch.gif?" +
-            Math.random()
-        );
-      });
-    </script>
-    <p class="site_title">cozyfiles</p>
-    <p class="site_desc">
-      cozyfiles music group. |
-      @cozyfiles
-    </p>
-    <!-- This is my navigation bar. There are no bulletpoints because of the "bp" class selector. -->
-    <nav>
-      <div class="nav_menu">
-        <ul class="bp">
-          <li>
-            <a href="pages/home.html"
-              >home.</a
-            >
-          </li>
-          <li>
-            <a href="pages/about.html"
-              >about.</a
-            >
-          </li>
-          <li>
-            <a href="pages/inquire.html"
-              >inquire.</a
-            >
-          </li>
-          <li>
-            <a href="pages/roster.html"
-              >roster.</a
-            >
-          </li>
-          <li>
-            <a href="pages/museum.html"
-              >museum.</a
-            >
-          </li>
-        </ul>
+    <header class="site_header">
+      <!-- This script replays the gif on page refresh -->
+      <div id="anim">
+        <img
+          id="image"
+          src="images/logo_glitch.gif"
+        />
       </div>
-    </nav>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $("#image").attr(
+            "src",
+            "images/logo_glitch.gif?" +
+              Math.random()
+          );
+        });
+      </script>
+      <p class="site_title">
+        cozyfiles
+      </p>
+      <p class="site_desc">
+        cozyfiles music group. |
+        @cozyfiles
+      </p>
+      <!-- This is my navigation bar. There are no bulletpoints because of the "bp" class selector. -->
+      <nav>
+        <div class="nav_menu">
+          <ul class="bp">
+            <li id="nav_home">
+              <a href="pages/home.html"
+                >home.</a
+              >
+            </li>
+            <li id="nav_about">
+              <a href="pages/about.html"
+                >about.</a
+              >
+            </li>
+            <li id="nav_inquire">
+              <a
+                href="pages/inquire.html"
+                >inquire.</a
+              >
+            </li>
+            <li id="nav_roster">
+              <a
+                href="pages/roster.html"
+                >roster.</a
+              >
+            </li>
+            <li id="nav_museum">
+              <a
+                href="pages/museum.html"
+                >museum.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
