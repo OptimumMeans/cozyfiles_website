@@ -46,6 +46,10 @@
 .nav-menu {
 }
 
+.bp {
+  list-style-type: none;
+}
+
 .html {
   box-sizing: border-box;
 }
