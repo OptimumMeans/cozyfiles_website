@@ -46,7 +46,10 @@
   padding-left: 32.5px;
 }
 
+nav,
 .nav-menu {
+  display: block;
+  text-align: right;
 }
 
 /* Removes bulletpoints from <ul> lists */
